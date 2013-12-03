@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		6CA860FDD4AB4FACACA73A69 /* BasicShapes_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1EF920F389794398B1A3A771 /* BasicShapes_Prefix.pch */; };
+		F0259FE15D94446BAA9848D6 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 05DB8D78111B481EB4B856E4 /* CinderApp.icns */; };
+		09909A65DE514137A9B2768C /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD8511FD4E440409D10E750 /* Resources.h */; };
+		DB199BBC1C6D41A0B352F997 /* BasicShapesApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 284621E0EA634A9EBDD6C29E /* BasicShapesApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* BasicShapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicShapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284621E0EA634A9EBDD6C29E /* BasicShapesApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/BasicShapesApp.cpp; sourceTree = "<group>"; name = BasicShapesApp.cpp; };
+		2BD8511FD4E440409D10E750 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
+		05DB8D78111B481EB4B856E4 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
+		086C3EC41B434FECAED6503E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
+		1EF920F389794398B1A3A771 /* BasicShapes_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = BasicShapes_Prefix.pch; sourceTree = "<group>"; name = BasicShapes_Prefix.pch; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				284621E0EA634A9EBDD6C29E /* BasicShapesApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* BasicShapes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* BasicShapes */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = BasicShapes;
+			sourceTree = "<group>";
+		};
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2BD8511FD4E440409D10E750 /* Resources.h */,
+				1EF920F389794398B1A3A771 /* BasicShapes_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05DB8D78111B481EB4B856E4 /* CinderApp.icns */,
+				086C3EC41B434FECAED6503E /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* BasicShapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "BasicShapes" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicShapes;
+			productInstallPath = "$(HOME)/Applications";
+			productName = BasicShapes;
+			productReference = 8D1107320486CEB800E47090 /* BasicShapes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BasicShapes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* BasicShapes */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* BasicShapes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0259FE15D94446BAA9848D6 /* CinderApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB199BBC1C6D41A0B352F997 /* BasicShapesApp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BasicShapes_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
+				PRODUCT_NAME = BasicShapes;
+				WRAPPER_EXTENSION = app;
+				SYMROOT = ./build;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BasicShapes_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
+				PRODUCT_NAME = BasicShapes;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+				SYMROOT = ./build;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = "../../../../Dev/cinder_0.8.5_mac";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = "../../../../Dev/cinder_0.8.5_mac";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "BasicShapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BasicShapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
